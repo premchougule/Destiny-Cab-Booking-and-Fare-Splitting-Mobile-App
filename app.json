@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "DESTINY",
+    "slug": "DESTINY",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo1i.png",
+    "scheme": "DESTINY",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo1i.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.premchougule.DESTINY"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/logo1i.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo1i.png",
+          "imageWidth": 400,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "10352779-6205-47ac-96a1-035bc052d005"
+      }
+    }
+  }
+}
